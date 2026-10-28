@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+# E/W - стиль pycodestyle, F - ошибки pyflakes, I - сортировка импортов,
+# B - потенциальные баги (flake8-bugbear), UP - современный синтаксис Python
+select = ["E", "W", "F", "I", "B", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
